@@ -1,0 +1,32 @@
+.header-bar {
+    background-color: darkgreen;
+    width: 100%;
+    text-align: left;
+    height: 10%;
+    margin-bottom: 17px; 
+}
+
+.heading {
+    display: inline;
+}
+
+#instructions {
+    float: right;
+    display: inline;
+    border: 1px solid white;
+    background-color: darkgreen;
+
+}
+
+#big_image {
+    width: 100%;
+}
+
+#start, #status {
+    font-size: 17px;
+}
+
+body {
+    filter: saturate(2.0);
+}
+
