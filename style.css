@@ -2,20 +2,24 @@
     background-color: darkgreen;
     width: 100%;
     text-align: left;
-    height: 10%;
+    height: 50px;
     margin-bottom: 17px; 
 }
 
 .heading {
     display: inline;
+    font-size: 37px;
+    margin-top: 10px;
+    color: white;
 }
 
 #instructions {
     float: right;
     display: inline;
     border: 1px solid white;
+    margin-top: 7px;
     background-color: darkgreen;
-
+    color: white;
 }
 
 #big_image {
@@ -30,3 +34,24 @@ body {
     filter: saturate(2.0);
 }
 
+.copyright {
+    position: fixed;
+    bottom: 0;
+    background-color: darkslategray;
+    color: white;
+    box-shadow: 5px 5px 18px black;
+    text-align: center;
+    margin-bottom:-128px;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.image_in_instruction {
+display: inline-block;
+width: 41%;
+}
+
+.modal-dialog {
+    width: 87%;
+}
